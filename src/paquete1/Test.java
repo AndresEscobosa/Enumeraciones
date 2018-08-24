@@ -9,10 +9,13 @@ public class Test {
 		double a=2;
 		double b=4;
 		double res=Operaciones.SUM.resultado(a, b);
-		
-		
 		System.out.println(res);
 		System.out.println("hola mundo!");
+		
+		for(Operaciones ope:Operaciones.values()){
+			System.out.println(ope.name());
+		}
+		
 	}
 
 }
