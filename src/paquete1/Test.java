@@ -13,6 +13,11 @@ public class Test {
 		
 		System.out.println(res);
 		System.out.println("hola mundo!");
+		
+		Operaciones ope[]=Operaciones.values();
+		for(int i=0;i<ope.length;i++){
+			System.out.println(ope[i].name());
+		}
 	}
 
 }
