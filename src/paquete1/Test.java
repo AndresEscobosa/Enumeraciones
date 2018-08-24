@@ -8,10 +8,11 @@ public class Test {
 		System.out.println(Operaciones.RES.name());
 		double a=2;
 		double b=4;
-		Operaciones ope=Operaciones.SUM;
-		double res=0;
+		double res=Operaciones.SUM.resultado(a, b);
+		
 		
 		System.out.println(res);
+		System.out.println("hola mundo!");
 	}
 
 }
